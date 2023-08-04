@@ -20,16 +20,16 @@
   },
   "homepage": "https://getwebsite.zip",
   "dependencies": {
-    "archiver": "^5.0.0",
-    "cookie-parser": "^1.4.4",
-    "debug": "^4.3.0",
+    "archiver": "^5.3.1",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
     "dotenv": "^16.3.1",
-    "express": "^4.18.0",
+    "express": "^4.18.2",
     "hbs": "^4.2.0",
     "http-errors": "^2.0.0",
-    "jszip": "^3.8.0",
+    "jszip": "^3.10.1",
     "morgan": "^1.10.0",
-    "socket.io": "^4.0.0",
-    "socket.io-client": "^4.0.0"
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2"
   }
 }
