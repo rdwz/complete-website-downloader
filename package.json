@@ -1,22 +1,34 @@
 {
   "name": "website-downloader",
+  "description": "Download the complete source code of any website (including all assets)",
   "version": "0.0.2",
-  "private": true,
   "main": "index.js",
   "scripts": {
+    "dev": "export NODE_ENV=Development && npm start",
     "start": "node ./src/index",
-    "dev": "export NODE_ENV=Development && npm start"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdwz/complete-website-downloader.git"
+  },
+  "keywords": [],
+  "author": "Marc Krebstakies <redwerkz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rdwz/complete-website-downloader/issues"
+  },
+  "homepage": "https://getwebsite.zip",
   "dependencies": {
     "archiver": "^5.0.0",
-    "cookie-parser": "~1.4.4",
-    "debug": "~4.3.0",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.3.0",
     "dotenv": "^16.3.1",
-    "express": "~4.18.0",
-    "hbs": "~4.2.0",
-    "http-errors": "~2.0.0",
+    "express": "^4.18.0",
+    "hbs": "^4.2.0",
+    "http-errors": "^2.0.0",
     "jszip": "^3.8.0",
-    "morgan": "~1.10.0",
+    "morgan": "^1.10.0",
     "socket.io": "^4.0.0",
     "socket.io-client": "^4.0.0"
   }
