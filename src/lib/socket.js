@@ -1,5 +1,5 @@
 // Download full website pages.
-var wget = require('./wget');
+const wget = require('./wget');
 
 module.exports=(io)=>{
 
