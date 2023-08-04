@@ -9,28 +9,28 @@ dependencies:
     specifier: ^5.0.0
     version: 5.0.0
   cookie-parser:
-    specifier: ~1.4.4
+    specifier: ^1.4.4
     version: 1.4.4
   debug:
-    specifier: ~4.3.0
+    specifier: ^4.3.0
     version: 4.3.0
   dotenv:
     specifier: ^16.3.1
     version: 16.3.1
   express:
-    specifier: ~4.18.0
+    specifier: ^4.18.0
     version: 4.18.0
   hbs:
-    specifier: ~4.2.0
+    specifier: ^4.2.0
     version: 4.2.0
   http-errors:
-    specifier: ~2.0.0
+    specifier: ^2.0.0
     version: 2.0.0
   jszip:
     specifier: ^3.8.0
     version: 3.8.0
   morgan:
-    specifier: ~1.10.0
+    specifier: ^1.10.0
     version: 1.10.0
   socket.io:
     specifier: ^4.0.0
