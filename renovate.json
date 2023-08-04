@@ -3,7 +3,6 @@
   "extends": ["config:base"],
   "semanticCommitScope": "deps",
   "automerge": true,
-  "automergeType": "pr",
   "includeForks": true,
   "packageRules": [
     {
