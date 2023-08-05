@@ -4,27 +4,28 @@
 <header>
   <div aria-busy="true" id="progress" hidden aria-label="Loading, please wait." role="progressbar"></div>
 </header>
-<main role="main">
-  <img src="/images/icon.svg" height="256" width="256" alt="zip file" />
-  <h1><code>getwebsite.zip</code></h1>
-  <p>Download all the source code and assets of any website</p>
-  <div class="container">
+<main role="main" style="position: relative; z-index: 1;">
+  <img src="/images/icon.svg" height="256" width="256" alt="inbox tray" title="inbox tray">
+  <h1>Download all source code and assets of any website</h1>
   <div class="row">
     <div class="col-lg-12" style="float: none; margin: 0 auto;">
         <form method="get" class="form" action="/search">
           <div class="input-group col-md-12">
-            <input type="text" class="form-control input-lg" id="website" placeholder="https://example.org" />
+            <input type="url" class="form-control input-lg" id="website" onfocus="this.value='https://'" value="https://getwebsite.zip">
             <span class="input-group-btn">
-              <button class="btn btn-info btn-lg" id="download" title="dowload" type="button">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="currentColor" d="M19 13v5c0 .6-.5 1-1 1H6a1 1 0 0 1-1-1v-5c0-.6-.5-1-1-1s-1 .5-1 1v6c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-6c0-.6-.5-1-1-1s-1 .5-1 1zm-6-.3 1.9-2a1 1 0 1 1 1.4 1.5l-3.6 3.6a1 1 0 0 1-1.4 0l-3.6-3.6a1 1 0 1 1 1.4-1.4l1.9 1.9V4c0-.6.5-1 1-1s1 .5 1 1v8.7z"/></svg>              </button>
+              <button class="btn btn-info btn-lg" id="download" title="start download" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="currentColor" d="M19 13v5c0 .6-.5 1-1 1H6a1 1 0 0 1-1-1v-5c0-.6-.5-1-1-1s-1 .5-1 1v6c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-6c0-.6-.5-1-1-1s-1 .5-1 1zm-6-.3 1.9-2a1 1 0 1 1 1.4 1.5l-3.6 3.6a1 1 0 0 1-1.4 0l-3.6-3.6a1 1 0 1 1 1.4-1.4l1.9 1.9V4c0-.6.5-1 1-1s1 .5 1 1v8.7z"></path></svg>              </button>
             </span>
           </div>
         </form>
 
     </div>
-  <h5 hidden id='nFilesP'>Total Downloaded file: <span  id='nFiles' style="color: red;font-weight: bold">10</span></h5>
-  <p  class="log" id='log'></p>
-  <button style="display: none" class="btn btn-success">Download website assets</button>
+  <h3 id="nFilesP">Total Downloaded Files: <span id="nFiles" style="color: orange">11</span></h3>
+  <p class="log" id="log"><code>Compressing completed successfully !</code><br></p>
+  <button style="" class="btn btn-success">
+    Download
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="currentColor" d="M19 13v5c0 .6-.5 1-1 1H6a1 1 0 0 1-1-1v-5c0-.6-.5-1-1-1s-1 .5-1 1v6c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-6c0-.6-.5-1-1-1s-1 .5-1 1zm-6-.3 1.9-2a1 1 0 1 1 1.4 1.5l-3.6 3.6a1 1 0 0 1-1.4 0l-3.6-3.6a1 1 0 1 1 1.4-1.4l1.9 1.9V4c0-.6.5-1 1-1s1 .5 1 1v8.7z"></path></svg>              </button>
+
   </div>
 
 </main>

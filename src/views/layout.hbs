@@ -8,8 +8,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 
-    <link rel='stylesheet' href='/css/styles.min.css' />
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel='stylesheet' href='/css/styles.css' />
+    <link rel="stylesheet" href="/css/bootstrap.css">
 
     <script src="/socket.io/socket.io.js"></script>
     <script async defer src="/js/buttons.min.js"></script>
@@ -81,6 +81,24 @@
 }
 </script>
 
+<script src="/js/three.min.js"></script>
+<script src="/js/vanta.clouds.min.js"></script>
+<script>
+  VANTA.CLOUDS({
+    el: "body",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    skyColor: 0x65a3de,
+    cloudColor: 0xc6ddff,
+    sunColor: 0xffbb18,
+    sunGlareColor: 0xff9191,
+    sunlightColor: 0xff8530,
+    speed: 0.50
+  })
+</script>
 
 </html>
 
