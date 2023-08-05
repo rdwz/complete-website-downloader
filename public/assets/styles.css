@@ -137,8 +137,7 @@ body {
   font-family: sans-serif;
 }
 
-body,
-body div {
+body, main, .wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -151,9 +150,6 @@ header {
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
   flex-grow: 1;
   text-align: center;
@@ -243,12 +239,6 @@ svg {
   box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
 }
 
-.noise {
-  z-index: -20;
-  position: absolute;
-  inset: 0;
-  background-image: url(/assets/noise.webp);
-  opacity: .4;
-  /* mix-blend-mode: overlay; */
-  pointer-events: none;
+.logo:hover {
+  filter: drop-shadow(0 0 2em hsla(53, 93%, 54%, 0.667));
 }
