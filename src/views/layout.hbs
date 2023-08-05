@@ -8,16 +8,17 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 
-    <link rel='stylesheet' href='/css/styles.css' />
-    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel='stylesheet' href='/assets/styles.css' />
+    <link rel="stylesheet" href="/assets/bootstrap.css">
 
     <script src="/socket.io/socket.io.js"></script>
     <script async defer src="/js/buttons.min.js"></script>
 
-
   </head>
   <body>
-    {{{body}}}
+    <div class="vignette">
+      {{{body}}}
+    </div>
   </body>
 
 <script>
@@ -64,11 +65,8 @@
         var website = document.getElementById('website').value
         console.log("Now downloading the website ... %s",website)
         socket.emit('request', { token: localStorage['token'] , website});
+        document.getElementById('nFilesP').hidden=true;
    }
-
-
-
-
 
   // Generate token for each user for the first time.
   function generateToken(n) {
@@ -88,7 +86,7 @@
     el: "body",
     mouseControls: true,
     touchControls: true,
-    gyroControls: false,
+    gyroControls: true,
     minHeight: 200.00,
     minWidth: 200.00,
     skyColor: 0x65a3de,
