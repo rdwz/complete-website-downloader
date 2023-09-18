@@ -20,7 +20,7 @@
   },
   "homepage": "https://getwebsite.zip",
   "dependencies": {
-    "archiver": "^5.3.1",
+    "archiver": "^6.0.1",
     "cookie-parser": "^1.4.6",
     "debug": "^4.3.4",
     "dotenv": "^16.3.1",
@@ -33,6 +33,6 @@
     "socket.io-client": "^4.7.2"
   },
   "engines": {
-    "node": ">=16 <20"
+    "node": ">=18 <20"
   }
 }
