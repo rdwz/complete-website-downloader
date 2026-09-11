@@ -31,7 +31,7 @@ dependencies:
     version: 3.10.2
   morgan:
     specifier: ^1.10.0
-    version: 1.12.0
+    version: 1.12.1
   socket.io:
     specifier: ^4.7.2
     version: 4.8.3
@@ -644,8 +644,8 @@ packages:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
     dev: false
 
-  /morgan@1.12.0:
-    resolution: {integrity: sha512-OHpTRQwn2ezasILW8iKe+Yww1XsfWsZIpUOLF7RDb2g5GwO3trPaRwi7+8BDiJ7HFx2Kg2mfUdCBcVhwYlOz2g==}
+  /morgan@1.12.1:
+    resolution: {integrity: sha512-tljKC0ex20AjO58Ob/eZ53JloycbVswbVNCHx6V6VLGzqt/w8dIynVGL0G8qVjNKwiA7sYSogCrN6QtJ82IV+g==}
     engines: {node: '>= 0.8.0'}
     dependencies:
       basic-auth: 2.0.1
