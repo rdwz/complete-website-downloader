@@ -22,7 +22,7 @@ dependencies:
     version: 4.22.2
   hbs:
     specifier: ^4.2.0
-    version: 4.3.0
+    version: 4.3.1
   http-errors:
     specifier: ^2.0.0
     version: 2.0.1
@@ -520,8 +520,8 @@ packages:
       function-bind: 1.1.2
     dev: false
 
-  /hbs@4.3.0:
-    resolution: {integrity: sha512-8QfAEcFcNXUw4facL8L0P4mGa0bC6v1QzYifhGsLITMYpnf+E2qwjJZKXPQc3xpbrQW9JY05mQW4rDVhQzKstw==}
+  /hbs@4.3.1:
+    resolution: {integrity: sha512-3dnqb6UauidoOLE0Ve2661d6rHeJuVFCycO/2vACtx9NCs4cL2xFPuT3CozQ+5vTxjoOMZ5tRJEYDPkMHXl0Tg==}
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
     dependencies:
       handlebars: 4.7.9
